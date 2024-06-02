@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Reservation</title>
+<!-- Include Flatpickr CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    
+    <div class="background-overlay">
+        <div class="black-cover"></div>
+    </div>
+
+    <div class="reservation-container">
+        <h1>Hotel Reservation</h1>
+        <form id="reservation-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="checkin">Check-in Date:</label>
+            <input type="text" id="checkin" name="checkin" required>
+        </div>
+        <div class="form-group">
+            <label for="checkout">Check-out Date:</label>
+            <input type="text" id="checkout" name="checkout" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Reserve Now">
+        </div>
+        </form>
+    </div>
+
+    <!-- Include Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="reservation.js"></script>
+</body>
+</html>

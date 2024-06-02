@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"></div>
+        <div class="navbar-links">
+            <a href="home.html">Home</a>
+            <a href="#room_page">Rooms</a>
+            <a href="">About Us</a>
+            <a href="facilities.html">Facilities</a>
+        </div>
+        <button class="login">Login</button>
+    </div>
+    <div class="home_page">
+        <div class="banner-box">
+            <div class="banner-image">
+                <div class="date-box">
+                    <div class="form-group">
+                        <input type="date" id="checkin" name="checkin" class="form-box" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="checkout" name="checkout" class="form-box" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Check Availability" class="form-box">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="room_page" id="room_page">
+        <div class="room-info">Our Rooms</div>
+        <div class="room-boxes">
+            <div class="room-box">
+                <a href="premium_room.html">
+                    <img src="Assets/king size.jpg" class="room-img" alt="">
+                    <div class="room-desc">
+                        <div class="room-type">
+                            <div class="type">Premium Suite</div>
+                        </div>
+                        <div class="room-price">
+                            <div class="price">Rp. 1.200.000</div>
+                            <div class="night">/night</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="room-box">
+                <a href="advance_room.html">
+                    <img src="Assets/Luxurious size (2).jpeg" class="room-img" alt="">
+                    <div class="room-desc">
+                        <div class="room-type">
+                            <div class="type">Advanced Suite</div>
+                        </div>
+                        <div class="room-price">
+                            <div class="price">Rp. 900.000</div>
+                            <div class="night">/night</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="room-box">
+                <a href="supreme_room.html">
+                    <img src="Assets/double queen size.jpg" class="room-img" alt="">
+                    <div class="room-desc">
+                        <div class="room-type">
+                            <div class="type">Supreme Suite</div>
+                        </div>
+                        <div class="room-price">
+                            <div class="price">Rp. 1.700.000</div>
+                            <div class="night">/night</div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
